@@ -2,6 +2,8 @@
 // Let's get familiar with VS Code. //
 //////////////////////////////////////
 
+
+
 // Note: this code is relevant only for the editor Visual Studio Code.
 // https://code.visualstudio.com/
 
@@ -52,12 +54,12 @@
 // Fix the two errors below with a red-line underneath.
 
 // a. Hint: follow the pattern.
-let variable1 = 1;
-var variable2 = 2;
-const variable3 = 3;
+variable1 = 1;
+variable2 = 2;
+variable3 = 3;
 
 // b. Hint: This function needs a name after the word function.
-function hello () {
+function sayHello() {
   console.log("Hello!");
 }
 
@@ -86,9 +88,9 @@ function hello () {
 // At every word "not" there is a new cursor, so you can write multiple rows
 // at once. Delete "not" and replace the exclamation mark with a sad face. 
 
-catchMeIfYouCan1 = "You can't catch me!";
-catchMeIfYouCan2 = "You can't catch me!";
-catchMeIfYouCan3 = "You can't catch me!";
+catchMeIfYouCan1 = "You did catch me :(";
+catchMeIfYouCan2 = "You did catch me :(";
+catchMeIfYouCan3 = "You did catch me :(";
 
 // d. Sometimes you want to move an entire line of code up or down. Of course
 // there is a shortcut for that: Alt-ArrowUp/Down.
